@@ -1,0 +1,62 @@
+﻿body {
+   font-family:'Lobster',cursive;
+}
+
+.page-header{
+    background-color: #e8d6cf;
+    margin-top:0px;
+    padding-top:5px;
+    margin-bottom:0px;
+    text-align:center;
+}
+
+#headerText{
+    font-family:'Lobster', cursive;
+    font-size:52px;
+}
+
+
+/*Nav bar*/
+nav#navvy.navbar.navbar-static-top{
+    margin:0px 0px 0px 0px;
+        color:#FFF6F0;
+        background-color: darkgray;       
+}
+#navvy ul{
+     margin-right: 25%;
+    margin-left: 25%;
+    background-color:chocolate;
+}
+
+#navvy a {
+    color:#FFF6F0;
+}
+
+#navvy a:hover{
+    background: none;
+}
+
+/*Button*/
+button.navbar-toggle{
+    border: 1px solid #FFF6F0;
+}
+span.icon-bar{
+    border:1px solid #FFF6F0;
+}
+
+.btn btn-primary{
+    background: none;
+}
+
+/*Rows and Columns*/
+div.row #firstOut {
+    image-orientation:inherit;
+    padding:0px;
+}
+
+#views{
+    grid-columns:              4;
+    grid-row-sizing:348px;
+    grid-column-sizing:348px;
+}
+
